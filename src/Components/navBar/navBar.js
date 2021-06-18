@@ -1,3 +1,5 @@
+import { cartWidget } from "../cartWidget/cartWidget"
+
 export const NavBar = () => {
     const handleClick = () => alert('Página en construcción')
 
