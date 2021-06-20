@@ -1,4 +1,5 @@
-import { cartWidget } from "../cartWidget/cartWidget"
+import './navBar.css'
+import CartWidget from "../cartWidget/cartWidget"
 
 export const NavBar = () => {
     const handleClick = () => alert('Página en construcción')
@@ -13,6 +14,7 @@ export const NavBar = () => {
                 <button className='button' onClick={handleClick} > Office</button>
                 <button className='button' onClick={handleClick} > Home/Student</button>
             </ul>
+            <CartWidget />
         </nav>
     )
 }
