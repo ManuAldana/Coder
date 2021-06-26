@@ -11,7 +11,7 @@ export const ItemCount = ({stock, inicial}) => {
         
         switch (operator){
             case '+':
-                if (capacidad < 1 ){
+                if (capacidad <= 1 ){
                     return(alert('Stock agotado'))
                 }
                 else{
