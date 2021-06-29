@@ -7,8 +7,8 @@ export const Home = () => {
     return (
         <div>
             <NavBar />
-            <ItemListContainer greeting="Listener" />
             <ItemCount stock="5" inicial="1" />
+            <ItemListContainer greeting="Listener" />
         </div>
     )
 }

@@ -1,7 +1,9 @@
 import { Item } from '../item/item'
 
-export const ItemList= () => {
+export const ItemList =({items})=>{
     return(
-        <p>Valor2</p>
+        <>
+            {items.map(item => <Item item={item}/>)} 
+        </>
     )
 }
